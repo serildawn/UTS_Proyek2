@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_food"
+        android:title="Western Food"
+        android:icon="@drawable/western" />
+    <item android:id="@+id/action_food1"
+        android:title="Indonesian Food"
+        android:icon="@drawable/indonesian" />
+
+</menu>
