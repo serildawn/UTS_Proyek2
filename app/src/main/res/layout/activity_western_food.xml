@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="WESTERN FOOD"
         android:textSize="30sp"
+        android:fontFamily="sans-serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,14 +40,15 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="146dp"
-        android:layout_height="94dp"
+        android:layout_width="141dp"
+        android:layout_height="87dp"
         android:layout_marginTop="208dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.329"
         app:srcCompat="@drawable/burger" />
 
     <TextView
@@ -55,7 +57,7 @@
         android:layout_height="wrap_content"
         android:text="Burger"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -82,15 +84,15 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="170dp"
-        android:layout_height="106dp"
+        android:layout_width="214dp"
+        android:layout_height="85dp"
         android:layout_marginTop="184dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.553"
+        app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/steak" />
 
     <TextView
@@ -109,9 +111,10 @@
         android:layout_height="162dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.518"
+        app:layout_constraintVertical_bias="0.509"
         app:srcCompat="@drawable/pancake" />
 
     <TextView

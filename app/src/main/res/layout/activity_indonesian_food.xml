@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="INDONESIAN FOOD"
         android:textSize="30sp"
+        android:fontFamily="sans-serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

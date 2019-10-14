@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, WesternFood.class);
         startActivity(intent);
     }
+
+    public void handleRestaurant(View view) {
+        Intent intent = new Intent(this, Restaurant.class);
+        startActivity(intent);
+    }
 }
